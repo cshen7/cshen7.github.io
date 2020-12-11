@@ -1,10 +1,8 @@
 /* CSS files add styling rules to your content */
 
-
 .container {
   border: 5px black solid;
 }
-
 
 .menu {
   display: flex;
@@ -19,17 +17,25 @@
   width: 300px;
   height: 400px;
   margin-left: 100px;
+  margin-top: 40px;
 }
 
-.tipsbigtext {
+.lightbulbicon {
+  width: 40px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.titlebigtext {
   font-size: 40px;
   font-color: white;
-  margin: 40px;
+  font-weight: bold;
+  margin-top: 70px;
 }
 
-.greenbackground {
+.bluebackground {
   display: flex;
-  flex-direction
   height: 500px;
   width: 400px;
   background-color: #6495ED;
@@ -37,28 +43,21 @@
 }
 
 .slogan {
-  height: 250px;
-  width: 500px;
-  border: red solid 2px;
+  margin: 40px;
 }
 
-.description {
-  border: greed solid 2px;
-  width: 500px;
-  height: 400px;
-}
 body {
   font-family: "Lucida Console", Courier, monospace;
   font-size: 20px;
 }
 
-.body {
-  font-size: 20px;
+.description {
+  margin-top: 100px;
+  color: white;
 }
 
-
 .row {
-  border: purple solid 2px;
+  border: black solid 2px;
 }
 
 .housepicture {
@@ -68,15 +67,33 @@ body {
 }
 
 .col {
-  border: orange solid 2px;
   margin: 20px;
 }
 
-.headercol {
-    border: orange solid 2px;
+.titles {
+  font-size: 30px;
+  font-weight: bold;
 }
 
+button {
+  background-color: yellowgreen;
+  width: 100px;
+  height: 50px;
+  color: white;
+  border: white;
+}
 
-.titles {
-  font-size: 40px;
+.footer {
+  display: flex;
+  background-color: #6495ED;
+  color: white;
+}
+
+.greenbackground {
+  background-color: yellowgreen;
+}
+
+a,
+a:hover {
+  color: inherit;
 }
