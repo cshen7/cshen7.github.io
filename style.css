@@ -1,8 +1,5 @@
 /* CSS files add styling rules to your content */
 
-.container {
-}
-
 .menu {
   display: flex;
   justify-content: space-around;
@@ -53,10 +50,6 @@ body {
 .description {
   margin-top: 100px;
   color: white;
-}
-
-.row {
-
 }
 
 .housepicture {
