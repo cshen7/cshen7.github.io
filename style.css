@@ -1,7 +1,6 @@
 /* CSS files add styling rules to your content */
 
 .container {
-  border: 5px black solid;
 }
 
 .menu {
@@ -57,7 +56,7 @@ body {
 }
 
 .row {
-  border: black solid 2px;
+
 }
 
 .housepicture {
