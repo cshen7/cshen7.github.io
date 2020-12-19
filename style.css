@@ -43,12 +43,12 @@
 }
 
 body {
-  font-family: "Garamond", monospace;
+  font-family: "Garamond", serif;
   font-size: 20px;
 }
 
 .description {
-  margin-top: 100px;
+  margin-top: 200px;
   color: white;
 }
 
@@ -61,6 +61,7 @@ body {
 .col {
   margin: 20px;
 }
+
 
 .titles {
   font-size: 30px;
@@ -82,6 +83,7 @@ button {
 
 .greenbackground {
   background-color: yellowgreen;
+  height: 500px;
 }
 
 a,
